@@ -260,20 +260,20 @@ approximately 3 months early delivery.
 Task | Effort | Duration
 --- | ---: | ---:
 **High Level Design (HLD)** | |
-&emsp;Write HLD document | $136\ \textsf{pages} / 2\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{68}\ \textbf{h}$ | $68\ \textsf{h} / 1\ \textsf{person} = \mathbf{68}\ \textbf{h}$
+&emsp;Write HLD document | $136\ \textsf{pages} / 2\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{68}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{68}\ \textbf{h}$
 &emsp;**Review HLD document** | |
-&emsp;&emsp;Preparation for HLD document | $136\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{34}\ \textbf{h}$ | $34\ \textsf{h} / 4\ \textsf{people} = \mathbf{8.5}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $136\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{22.67}\ \textbf{h}$ | $22.67\ \textsf{h} / 5\ \textsf{people} = \mathbf{4.53}\ \textbf{h}$
-&emsp;Rework | $24\ \textsf{defects} / 2\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{12}\ \textbf{h}$ | $12\ \textsf{h} / 1\ \textsf{person} = \mathbf{12}\ \textbf{h}$
+&emsp;&emsp;Preparation for HLD document | $136\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{34}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{8.5}\ \textbf{h}$
+&emsp;&emsp;Review meeting | $136\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{22.67}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{4.53}\ \textbf{h}$
+&emsp;Rework | $24\ \textsf{defects} / 2\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{12}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{12}\ \textbf{h}$
 **Low Level Design (LLD)** | |
-&emsp;Write LLD document | $76\ \textsf{pages} / 2\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{38}\ \textbf{h}$ | $38\ \textsf{h} / 1\ \textsf{person} = \mathbf{38}\ \textbf{h}$
+&emsp;Write LLD document | $76\ \textsf{pages} / 2\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{38}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{38}\ \textbf{h}$
 &emsp;**Review LLD document** | |
-&emsp;&emsp;Preparation for LLD document | $76\ \textsf{pages} / 3\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{25.33}\ \textbf{h}$ | $25.33\ \textsf{h} / 4\ \textsf{people} = \mathbf{6.33}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $76\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{12.67}\ \textbf{h}$ | $12.67\ \textsf{h} / 5\ \textsf{people} = \mathbf{2.53}\ \textbf{h}$
-&emsp;Rework | $43\ \textsf{defects} / 1\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{43}\ \textbf{h}$ | $43\ \textsf{h} / 1\ \textsf{person} = \mathbf{43}\ \textbf{h}$
+&emsp;&emsp;Preparation for LLD document | $76\ \textsf{pages} / 3\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{25.33}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{6.33}\ \textbf{h}$
+&emsp;&emsp;Review meeting | $76\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{12.67}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{2.53}\ \textbf{h}$
+&emsp;Rework | $43\ \textsf{defects} / 1\ \frac{\textsf{defect}}{\textsf{h}} = \mathbf{43}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{43}\ \textbf{h}$
 **Testing** | |
-&emsp;Write test plan | $102\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{20.4}\ \textbf{h}$ | $20.4\ \textsf{h} / 1\ \textsf{person} = \mathbf{20.4}\ \textbf{h}$
+&emsp;Write test plan | $102\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{20.4}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{20.4}\ \textbf{h}$
 &emsp;**Review test plan** | |
-&emsp;&emsp;Preparation for test plan | $102\ \textsf{pages} / 10\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{10.2}\ \textbf{h}$ | $10.2\ \textsf{h} / 4\ \textsf{people} = \mathbf{2.55}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $102\ \textsf{pages} / 15\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{6.8}\ \textbf{h}$ | $6.8\ \textsf{h} / 5\ \textsf{people} = \mathbf{1.36}\ \textbf{h}$
-&emsp;Rework | $35\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{8.75}\ \textbf{h}$ | $8.75\ \textsf{h} / 1\ \textsf{person} = \mathbf{8.75}\ \textbf{h}$
+&emsp;&emsp;Preparation for test plan | $102\ \textsf{pages} / 10\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{10.2}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{2.55}\ \textbf{h}$
+&emsp;&emsp;Review meeting | $102\ \textsf{pages} / 15\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{6.8}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{1.36}\ \textbf{h}$
+&emsp;Rework | $35\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{8.75}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{8.75}\ \textbf{h}$

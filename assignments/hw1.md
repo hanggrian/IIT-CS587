@@ -15,6 +15,52 @@
 
 # [Homework 1](https://github.com/hanggrian/IIT-CS587/blob/assets/assignments/hw1.pdf)
 
+> ## Resources
+>
+> **Important Note:** ONLY assign the needed resources to the tasks; for example
+  a project manager needs one manager of the available managers, however, you
+  could use more than one requirement engineer to work on writing the
+  requirements.
+>
+> Category | Initials
+> --- | ---
+> Project Managers | PM3, PM4, PM5
+> Requirement Engineers | RE1, RE2, RE7, RE8, RE102, RE103, RE117, RE118, RE119
+> System Engineers | SE1, SE2, SE7, SE8, SE9, SE204, SE205, SE501
+> Programmers | PE1, PE7, PE8, PE9, PE10, PE202, PE203, PE205
+> Test Engineers | TE1, TE2, TE3, TE4, TE302, TE2403, TE404, TE405
+> Documentation Engineers | DE1, DE105, DE203, DE204, DE205, DE206
+>
+> ## Assumptions
+>
+> 1.  Every review or inspection *meeting* task shall be carried by
+      **5 engineers including ONE of the author(s).**
+> 1.  Every review or inspection *preparation* task shall be carried by
+      **4 engineers excluding the author(s).**
+> 1.  Any *Rework* task can be executed by
+      **one or all authors of the original task.**
+> 1.  *Project Plan* shall be reviewed by at least
+      **ONE engineer from every technical area.**
+> 1.  *System Engineers* are responsible for creating **Analysis and Design**
+      artifacts.
+>
+> ## Dependencies
+>
+> It is expected that you will find the correct task dependencies based on the
+  material discussed during class and considering the following constraints:
+>
+> 1.  There is no technical task prior to requirement phase; project planning is
+      not a technical task it is a managerial task.
+> 1.  Analysis activity can start as soon as requirement document is complete.
+> 1.  Design activity can start as soon as Analysis document is complete.
+> 1.  Data Model task can start when Detailed Design task finishes.
+> 1.  Coding can start as soon as design is complete.
+> 1.  Writing test plan can start as soon as requirements are complete.
+> 1.  Executing test plan can start as soon as coding is complete.
+> 1.  Documentation can start as soon as requirements are complete.
+> 1.  Any other constraints that you might add, shall be documented clearly when
+      you submit your homework.
+
 ## Problem 1
 
 > Feed the information provided in this handout in MS Project to create the
@@ -25,78 +71,79 @@ provided in the handout. Indentation is used to indicate the hierarchy of tasks.
 Task groups are indicated with **bold** text, they do not have assigned
 resources or durations.
 
-<div style="width: 240px;">Task</div> | Effort | Duration
+Task | Effort | Duration
 --- | ---: | ---:
 **Project plan** | |
-&emsp;Write plan | $187\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{37.4}\ \textbf{h}$ | $37.4\ \textsf{h} / 1\ \textsf{person} = \mathbf{37.4}\ \textbf{h}$
+&emsp;Write plan | $187\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{37.4}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{37.4}\ \textbf{h}$
 &emsp;**Review plan** | |
-&emsp;&emsp;Preparation for review | $187\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{46.75}\ \textbf{h}$ | $46.75\ \textsf{h} / 7\ \textsf{people} = \mathbf{6.64}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $187\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{37.4}\ \textbf{h}$ | $37.4\ \textsf{h} / 6\ \textsf{people} = \mathbf{6.23}\ \textbf{h}$
-&emsp;&emsp;Rework | $71\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{14.2}\ \textbf{h}$ | $14.2\ \textsf{h} / 1\ \textsf{person} = \mathbf{14.2}\ \textbf{h}$
+&emsp;&emsp;Preparation for review | $187\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{46.75}\ \textbf{h}$ | $/ 7\ \textsf{people} = \mathbf{6.64}\ \textbf{h}$
+&emsp;&emsp;Review meeting | $187\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{37.4}\ \textbf{h}$ | $/ 6\ \textsf{people} = \mathbf{6.23}\ \textbf{h}$
+&emsp;&emsp;Rework | $71\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{14.2}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{14.2}\ \textbf{h}$
 **Requirements** | |
-&emsp;Write requirements | $156\ \textsf{Req} / 5\ \frac{\textsf{Req}}{\textsf{h}} = \mathbf{31.2}\ \textbf{h}$ | $31.2\ \textsf{h} / 2\ \textsf{people} = \mathbf{15.6}\ \textbf{h}$
-&emsp;Write Use Case Model | $76\ \textsf{Use Cases} / 5\ \frac{\textsf{Use Cases}}{\textsf{h}} = \mathbf{15.2}\ \textbf{h}$ | $15.2\ \textsf{h} / 2\ \textsf{people} = \mathbf{7.6}\ \textbf{h}$
+&emsp;Write requirements | $156\ \textsf{Req} / 5\ \frac{\textsf{Req}}{\textsf{h}} = \mathbf{31.2}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{15.6}\ \textbf{h}$
+&emsp;Write Use Case Model | $76\ \textsf{Use Cases} / 5\ \frac{\textsf{Use Cases}}{\textsf{h}} = \mathbf{15.2}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{7.6}\ \textbf{h}$
 &emsp;**Review requirements** | |
-&emsp;&emsp;Preparation for review | $156\ \textsf{Req} / 8 \frac{\textsf{Req}}{\textsf{h}} + 76\ \textsf{Use Cases} / 4\ \frac{\textsf{Use Cases}}{\textsf{h}} = 19.5 \textsf{h} + 19 \textsf{ h} = \mathbf{38.5}\ \textbf{h}$ | $38.5\ \textsf{h} / 4\ \textsf{people} = \mathbf{9.62}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $156\ \textsf{Req} / 8\ \frac{\textsf{Req}}{\textsf{h}} + 76\ \textsf{Use Cases} / 12\ \frac{\textsf{Use Cases}}{\textsf{h}} = 19.5\ \textsf{h} + 6.58\ \textsf{h} = \mathbf{26.08}\ \textbf{h}$ | $26.08\ \textsf{h} / 5\ \textsf{people} = \mathbf{5.21}\ \textbf{h}$
-&emsp;Rework | $97\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{19.4}\ \textbf{h}$ | $19.4\ \textsf{h} / 3\ \textsf{people} = \mathbf{6.46}\ \textbf{h}$
+&emsp;&emsp;Preparation for review | $156\ \textsf{Req} / 8 \frac{\textsf{Req}}{\textsf{h}} + 76\ \textsf{Use Cases} / 4\ \frac{\textsf{Use Cases}}{\textsf{h}} =\\\\ 19.5 \textsf{h} + 19 \textsf{ h} = \mathbf{38.5}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{9.62}\ \textbf{h}$
+&emsp;&emsp;Review meeting | $156\ \textsf{Req} / 8\ \frac{\textsf{Req}}{\textsf{h}} + 76\ \textsf{Use Cases} / 12\ \frac{\textsf{Use Cases}}{\textsf{h}} =\\\\ 19.5\ \textsf{h} + 6.58\ \textsf{h} = \mathbf{26.08}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{5.21}\ \textbf{h}$
+&emsp;Rework | $97\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{19.4}\ \textbf{h}$ | $/ 3\ \textsf{people} = \mathbf{6.46}\ \textbf{h}$
 **Analysis** | |
-&emsp;Write analysis document | $48\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{9.6}\ \textbf{h}$ | $9.6\ \textsf{h} / 2\ \textsf{people} = \mathbf{4.8}\ \textbf{h}$
+&emsp;Write analysis document | $48\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{9.6}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{4.8}\ \textbf{h}$
 &emsp;**Review analysis document** | |
-&emsp;&emsp;Preparation for analysis document | $48\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{9.6}\ \textbf{h}$ | $9.6\ \textsf{h} / 4\ \textsf{people} = \mathbf{2.4}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $48\ \textsf{pages} / 8 \frac{\textsf{pages}}{\textsf{h}} = \mathbf{6}\ \textbf{h}$ | $6\ \textsf{h} / 5\ \textsf{people} = \mathbf{1.2}\ \textbf{h}$
-&emsp;Rework | $66\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{16.5}\ \textbf{h}$ | $16.5\ \textsf{h} / 2\ \textsf{people} = \mathbf{8.25}\ \textbf{h}$
+&emsp;&emsp;Preparation for analysis document | $48\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{9.6}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{2.4}\ \textbf{h}$
+&emsp;&emsp;Review meeting | $48\ \textsf{pages} / 8 \frac{\textsf{pages}}{\textsf{h}} = \mathbf{6}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{1.2}\ \textbf{h}$
+&emsp;Rework | $66\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{16.5}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{8.25}\ \textbf{h}$
 **Design** | |
-&emsp;Write DD | $134\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{26.8}\ \textbf{h}$ | $26.8\ \textsf{h} / 1\ \textsf{person} = \mathbf{26.8}\ \textbf{h}$
+&emsp;Write DD | $134\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{26.8}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{26.8}\ \textbf{h}$
 &emsp;**Review DD** | |
-&emsp;&emsp;Preparation for DD | $134\ \textsf{pages} / 3\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{44.67}\ \textbf{h}$ | $44.67\ \textsf{h} / 3\ \textsf{people} = \mathbf{14.89}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $134\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{22.33}\ \textbf{h}$ | $22.33\ \textsf{h} / 4\ \textsf{people} = \mathbf{5.58}\ \textbf{h}$
-&emsp;Rework | $88\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{17.6}\ \textbf{h}$ | $17.6\ \textsf{h} / 1\ \textsf{person} = \mathbf{17.6}\ \textbf{h}$
-&emsp;Write DM | $69\ \textsf{pages} / 1\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{69}\ \textbf{h}$ | $69\ \textsf{h} / 1\ \textsf{person} = \mathbf{69}\ \textbf{h}$
+&emsp;&emsp;Preparation for DD | $134\ \textsf{pages} / 3\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{44.67}\ \textbf{h}$ | $/ 3\ \textsf{people} = \mathbf{14.89}\ \textbf{h}$
+&emsp;&emsp;Review meeting | $134\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{22.33}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{5.58}\ \textbf{h}$
+&emsp;Rework | $88\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{17.6}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{17.6}\ \textbf{h}$
+&emsp;Write DM | $69\ \textsf{pages} / 1\ \frac{\textsf{page}}{\textsf{h}} = \mathbf{69}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{69}\ \textbf{h}$
 &emsp;**Review DM** | |
-&emsp;&emsp;Preparation for DM | $69\ \textsf{pages} / 3\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{23}\ \textbf{h}$ | $23\ \textsf{h} / 3\ \textsf{people} = \mathbf{7.66}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $69\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{13.8}\ \textbf{h}$ | $13.8\ \textsf{h} / 4\ \textsf{people} = \mathbf{3.45}\ \textbf{h}$
-&emsp;Rework | $94\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{18.8}\ \textbf{h}$ | $18.8\ \textsf{h} / 1\ \textsf{person} = \mathbf{18.8}\ \textbf{h}$
+&emsp;&emsp;Preparation for DM | $69\ \textsf{pages} / 3\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{23}\ \textbf{h}$ | $/ 3\ \textsf{people} = \mathbf{7.66}\ \textbf{h}$
+&emsp;&emsp;Review meeting | $69\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{13.8}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{3.45}\ \textbf{h}$
+&emsp;Rework | $94\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{18.8}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{18.8}\ \textbf{h}$
 **Coding and unit test** | |
-&emsp;Write code | $3450\ \textsf{SLOC} / 10\ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{345}\ \textbf{h}$ | $345\ \textsf{h} / 4\ \textsf{people} = \mathbf{86.25}\ \textbf{h}$
+&emsp;Write code | $3450\ \textsf{SLOC} / 10\ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{345}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{86.25}\ \textbf{h}$
 &emsp;**Unit testing** | |
-&emsp;&emsp;Prepare/execute test cases | $174\ \textsf{test cases} / 5\ \frac{\textsf{test cases}}{\textsf{h}} = \mathbf{34.8}\ \textbf{days}$ | $34.8\ \textsf{days} / 2\ \textsf{people} = \mathbf{17.4}\ \textbf{days}$
-&emsp;&emsp;Fix found defects | $104\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{26}\ \textbf{days}$ | $26\ \textsf{days} / 2\ \textsf{people} = \mathbf{13}\ \textbf{days}$
-&emsp;&emsp;Test dixed defects | $104\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{20.8}\ \textbf{days}$ | $20.8\ \textsf{days} / 2\ \textsf{people} = \mathbf{10.4}\ \textbf{days}$
+&emsp;&emsp;Execute test cases | $174\ \textsf{tests} / 5\ \frac{\textsf{tests}}{\textsf{d}} = \mathbf{34.8}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{17.4}\ \textbf{d}$
+&emsp;&emsp;Fix found defects | $104\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{26}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{13}\ \textbf{d}$
+&emsp;&emsp;Test dixed defects | $104\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{20.8}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{10.4}\ \textbf{d}$
 &emsp;**Code inspection** | |
-&emsp;&emsp;Preparation for code inspection | $3450\ \textsf{SLOC} / 110\ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{31.36}\ \textbf{h}$ | $31.36\ \textsf{h} / 4\ \textsf{people} = \mathbf{7.84}\ \textbf{h}$
-&emsp;&emsp;Code inspection meeting | $3450\ \textsf{SLOC} / 160\ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{21.56}\ \textbf{h}$ | $21.56\ \textsf{h} / 5\ \textsf{people} = \mathbf{4.31}\ \textbf{h}$
-&emsp;&emsp;Rework | $309\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{61.8}\ \textbf{h}$ | $61.8\ \textsf{h} / 2\ \textsf{people} = \mathbf{30.9}\ \textbf{h}$
+&emsp;&emsp;Preparation for code inspection | $3450\ \textsf{SLOC} / 110\ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{31.36}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{7.84}\ \textbf{h}$
+&emsp;&emsp;Code inspection meeting | $3450\ \textsf{SLOC} / 160\ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{21.56}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{4.31}\ \textbf{h}$
+&emsp;&emsp;Rework | $309\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{61.8}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{30.9}\ \textbf{h}$
 &emsp;**System integration testing** | |
-&emsp;&emsp;Write test plan | $149\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{day}} = \mathbf{29.8}\ \textbf{days}$ | $29.8\ \textsf{days} / 2\ \textsf{people} = \mathbf{14.9}\ \textbf{days}$
+&emsp;&emsp;Write test plan | $149\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{d}} = \mathbf{29.8}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{14.9}\ \textbf{d}$
 &emsp;&emsp;**Review TP** | |
-&emsp;&emsp;&emsp;Preparation for TP | $149\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{29.8}\ \textbf{h}$ | $29.8\ \textsf{h} / 4\ \textsf{people} = \mathbf{7.45}\ \textbf{h}$
-&emsp;&emsp;&emsp;Review TP meeting | $149\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{24.83}\ \textbf{h}$ | $24.83\ \textsf{h} / 5\ \textsf{people} = \mathbf{4.97}\ \textbf{h}$
-&emsp;&emsp;&emsp;Rework | $99\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{24.75}\ \textbf{h}$ | $24.75\ \textsf{h} / 2\ \textsf{people} = \mathbf{12.38}\ \textbf{h}$
-&emsp;&emsp;Execute TP | $138\ \textsf{test cases} / 30\ \frac{\textsf{test cases}}{\textsf{day}} = \mathbf{4.6}\ \textbf{days}$ | $4.6\ \textsf{days} / 2\ \textsf{people} = \mathbf{2.3}\ \textbf{days}$
-&emsp;&emsp;Fix found defects | $77\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{day}} = \mathbf{19.25}\ \textbf{days}$ | $19.25\ \textsf{days} / 2\ \textsf{people} = \mathbf{9.63}\ \textbf{days}$
-&emsp;&emsp;Test fixed defects | $77\ \textsf{defects} / 10\ \frac{\textsf{defects}}{\textsf{day}} = \mathbf{7.7}\ \textbf{days}$ | $7.7\ \textsf{days} / 2\ \textsf{people} = \mathbf{3.85}\ \textbf{days}$
+&emsp;&emsp;&emsp;Preparation for TP | $149\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{29.8}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{7.45}\ \textbf{h}$
+&emsp;&emsp;&emsp;Review TP meeting | $149\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{24.83}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{4.97}\ \textbf{h}$
+&emsp;&emsp;&emsp;Rework | $99\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{24.75}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{12.38}\ \textbf{h}$
+&emsp;&emsp;Execute TP | $138\ \textsf{tests} / 30\ \frac{\textsf{tests}}{\textsf{d}} = \mathbf{4.6}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{2.3}\ \textbf{d}$
+&emsp;&emsp;Fix found defects | $77\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{19.25}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{9.63}\ \textbf{d}$
+&emsp;&emsp;Test fixed defects | $77\ \textsf{defects} / 10\ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{7.7}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{3.85}\ \textbf{d}$
 &emsp;**Load, stress and performance Testing** | |
-&emsp;&emsp;Write test plan | $201\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{day}} = \mathbf{50.25}\ \textbf{days}$ | $50.25\ \textsf{days} / 2\ \textsf{people} = \mathbf{25.13}\ \textbf{days}$
+&emsp;&emsp;Write test plan | $201\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{d}} = \mathbf{50.25}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{25.13}\ \textbf{d}$
 &emsp;&emsp;**Review TP** | |
-&emsp;&emsp;&emsp;Preparation for TP | $201\ \textsf{pages} / 3\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{67}\ \textbf{h}$ | $67\ \textsf{h} / 4\ \textsf{people} = \mathbf{16.75}\ \textbf{h}$
-&emsp;&emsp;&emsp;Review TP meeting | $201\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{33.5}\ \textbf{h}$ | $33.5\ \textsf{h} / 5\ \textsf{people} = \mathbf{6.7}\ \textbf{h}$
-&emsp;&emsp;&emsp;Rework | $88\ \textsf{defects} / 3\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{29.33}\ \textbf{h}$ | $29.33\ \textsf{h} / 2\ \textsf{people} = \mathbf{14.67}\ \textbf{h}$
-&emsp;&emsp;Execute TP | $192\ \textsf{test cases} / 10\ \frac{\textsf{test cases}}{\textsf{day}} = \mathbf{19.2}\ \textbf{days}$ | $19.2\ \textsf{days} / 2\ \textsf{people} = \mathbf{9.6}\ \textbf{days}$
-&emsp;&emsp;Fix found defects | $74\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{day}} = \mathbf{14.8}\ \textbf{days}$ | $14.8\ \textsf{days} / 2\ \textsf{people} = \mathbf{7.4}\ \textbf{days}$
-&emsp;&emsp;Test fixed defects | $74\ \textsf{defects} / 8\ \frac{\textsf{defects}}{\textsf{day}} = \mathbf{9.25}\ \textbf{days}$ | $9.25\ \textsf{days} / 2\ \textsf{people} = \mathbf{4.63}\ \textbf{days}$
+&emsp;&emsp;&emsp;Preparation for TP | $201\ \textsf{pages} / 3\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{67}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{16.75}\ \textbf{h}$
+&emsp;&emsp;&emsp;Review TP meeting | $201\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{33.5}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{6.7}\ \textbf{h}$
+&emsp;&emsp;&emsp;Rework | $88\ \textsf{defects} / 3\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{29.33}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{14.67}\ \textbf{h}$
+&emsp;&emsp;Execute TP | $192\ \textsf{tests} / 10\ \frac{\textsf{tests}}{\textsf{d}} = \mathbf{19.2}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{9.6}\ \textbf{d}$
+&emsp;&emsp;Fix found defects | $74\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{14.8}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{7.4}\ \textbf{d}$
+&emsp;&emsp;Test fixed defects | $74\ \textsf{defects} / 8\ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{9.25}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{4.63}\ \textbf{d}$
 &emsp;**Documentation** | |
-&emsp;&emsp;User documentation | $141\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{28.2}\ \textbf{h}$ | $28.2\ \textsf{h} / 2\ \textsf{people} = \mathbf{14.1}\ \textbf{h}$
+&emsp;&emsp;User documentation | $141\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{28.2}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{14.1}\ \textbf{h}$
 &emsp;&emsp;**Review UD** | |
-&emsp;&emsp;&emsp;Preparation for UD Review | $141\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{35.25}\ \textbf{h}$ | $35.25\ \textsf{h} / 4\ \textsf{people} = \mathbf{8.06}\ \textbf{h}$
-&emsp;&emsp;&emsp;Review UD meeting | $141\ \textsf{pages} / 10\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{14.1}\ \textbf{h}$ | $14.1\ \textsf{h} / 5\ \textsf{people} = \mathbf{2.82}\ \textbf{h}$
-&emsp;&emsp;&emsp;Rework | $203\ \textsf{defects} / 10\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{20.3}\ \textbf{h}$ | $20.3\ \textsf{h} / 2\ \textsf{people} = \mathbf{10.15}\ \textbf{h}$
+&emsp;&emsp;&emsp;Preparation for UD Review | $141\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{35.25}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{8.06}\ \textbf{h}$
+&emsp;&emsp;&emsp;Review UD meeting | $141\ \textsf{pages} / 10\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{14.1}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{2.82}\ \textbf{h}$
+&emsp;&emsp;&emsp;Rework | $203\ \textsf{defects} / 10\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{20.3}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{10.15}\ \textbf{h}$
 &emsp;**Training material** | |
-&emsp;&emsp;Tutorial | $266\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{66.5}\ \textbf{h}$ | $66.5\ \textsf{h} / 2\ \textsf{people} = \mathbf{33.25}\ \textbf{h}$
+&emsp;&emsp;Tutorial | $266\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{66.5}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{33.25}\ \textbf{h}$
 &emsp;&emsp;**Review tutorial** | |
-&emsp;&emsp;&emsp;Preparation for tutorial review | $266\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{53.2}\ \textbf{h}$ | $53.2\ \textsf{h} / 4\ \textsf{people} = \mathbf{13.3}\ \textbf{h}$
-&emsp;&emsp;&emsp;Review tutorial meeting | $266\ \textsf{pages} / 10\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{26.6}\ \textbf{h}$ | $26.6\ \textsf{h} / 5\ \textsf{people} = \mathbf{5.32}\ \textbf{h}$
-&emsp;&emsp;&emsp;Rework | $168\ \textsf{defects} / 10\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{16.8}\ \textbf{h}$ | $16.8\ \textsf{h} / 2\ \textsf{people} = \mathbf{8.4}\ \textbf{h}$
+&emsp;&emsp;&emsp;Preparation for tutorial review | $266\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{53.2}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{13.3}\ \textbf{h}$
+&emsp;&emsp;&emsp;Review tutorial meeting | $266\ \textsf{pages} / 10\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{26.6}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{5.32}\ \textbf{h}$
+&emsp;&emsp;&emsp;Rework | $168\ \textsf{defects} / 10\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{16.8}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{8.4}\ \textbf{h}$
+*Total* | | **$1,982.4\ \textsf{h}$** | **$/ 20\ \textsf{people} = 99.12\ \textsf{h}$**
 
 ## Problem 2
 
@@ -136,7 +183,7 @@ graph LR
 ```mermaid
 graph LR
   A[Design] --> B(Write DD)
-  A --> C(Write DM)
+  B --> C(Write DM)
   B --> D(Preparation for DD)
   C --> E(Preparation for DM)
   D --> G(Review meeting)
@@ -207,78 +254,78 @@ graph LR
   appropriate (Your assumptions should be based on Software Engineering
   Assumptions).
 
-Task | Resource | Note
+Task | Resources | Note
 --- | --- | ---
 **Project plan** | |
-&emsp;Write plan | PM3
+&emsp;Write plan | PM3 |
 &emsp;**Review plan** | |
 &emsp;&emsp;Preparation for review | PM4, PM5, RE1, SE1, DE1, PE1, TE1 | PM3 absent
 &emsp;&emsp;Review meeting | PM3, DE105, PE7, RE2, SE2, TE2 | PM3 returns
-&emsp;&emsp;Rework | PM3
+&emsp;&emsp;Rework | PM3 |
 **Requirements** | |
-&emsp;Write requirements | RE1, RE2
-&emsp;Write use case model | RE7, RE8
+&emsp;Write requirements | RE1, RE2 |
+&emsp;Write use case model | RE7, RE8 |
 &emsp;**Review requirements** | |
 &emsp;&emsp;Preparation for review | RE102, RE103, RE117, RE118 | RE1, RE2, RE7 absent
 &emsp;&emsp;Review meeting | RE1, RE2, RE7, RE103, RE119 | RE1, RE2, RE7 returns
-&emsp;Rework | RE1, RE2, RE7
+&emsp;Rework | RE1, RE2, RE7 |
 **Analysis** | |
-&emsp;Write analysis document | SE1, SE2
+&emsp;Write analysis document | SE1, SE2 |
 &emsp;**Review analysis document** | |
 &emsp;&emsp;Preparation for analysis document | SE7, SE8, SE204, SE205 | SE1, SE2 absent
 &emsp;&emsp;Review meeting | SE1, SE2, SE7, SE205, SE501 | SE1, SE2 returns
-&emsp;Rework | SE1, SE2
+&emsp;Rework | SE1, SE2 |
 **Design** | |
-&emsp;Write DD | SE7
+&emsp;Write DD | SE7 |
 &emsp;**Review DD** | |
 &emsp;&emsp;Preparation for DD | SE1, SE2, SE8 | SE7 absent
 &emsp;&emsp;Review meeting | SE1, SE2, SE7, SE8 | SE7 returns
-&emsp;Rework | SE7
-&emsp;Write DM | SE9
+&emsp;Rework | SE7 |
+&emsp;Write DM | SE9 |
 &emsp;**Review DM** | |
 &emsp;&emsp;Preparation for DM | SE204, SE205, SE501 | SE9 absent
 &emsp;&emsp;Review meeting | SE9, SE204, SE205, SE501 | SE9 returns
-&emsp;Rework | SE9
+&emsp;Rework | SE9 |
 **Coding and unit test** | |
-&emsp;Write code | PE1, PE7, PE8, PE9
+&emsp;Write code | PE1, PE7, PE8, PE9 |
 &emsp;**Unit testing** | |
-&emsp;&emsp;Prepare/execute test cases | TE1, TE2
-&emsp;&emsp;Fix found defects | PE1, PE202
-&emsp;&emsp;Test fixed defects | TE3, TE4
+&emsp;&emsp;Prepare/execute test cases | TE1, TE2 |
+&emsp;&emsp;Fix found defects | PE1, PE202 |
+&emsp;&emsp;Test fixed defects | TE3, TE4 |
 &emsp;**Code inspection** | |
-&emsp;&emsp;Preparation for code inspection | PE8, PE9, PE203, PE205 | PE1, PE7 absent
+&emsp;&emsp;Preparation for code inspection | PE10, PE202, PE203, PE205 | PE1, PE7 absent
 &emsp;&emsp;Code inspection meeting | PE1, PE7, PE10, PE203, PE202 | PE1, PE7 returns
-&emsp;&emsp;Rework | PE1, PE7
+&emsp;&emsp;Rework | PE1, PE7 |
 &emsp;**System integration testing** | |
-&emsp;&emsp;Write test plan | TE1, TE2
+&emsp;&emsp;Write test plan | TE1, TE2 |
 &emsp;&emsp;**Review TP** | |
 &emsp;&emsp;&emsp;Preparation for TP | TE3, TE4, TE302, TE404 | TE1, TE2 absent
 &emsp;&emsp;&emsp;Review TP meeting | TE1, TE2403, TE404, TE405, TE2 | TE1, TE2 returns
-&emsp;&emsp;&emsp;Rework | TE1, TE2
-&emsp;&emsp;Execute TP | TE302, TE2403
-&emsp;&emsp;Fix found defects | PE202, PE203
-&emsp;&emsp;Test fixed defects | TE404, TE405
+&emsp;&emsp;&emsp;Rework | TE1, TE2 |
+&emsp;&emsp;Execute TP | TE302, TE2403 |
+&emsp;&emsp;Fix found defects | PE202, PE203 |
+&emsp;&emsp;Test fixed defects | TE404, TE405 |
 &emsp;**Load, stress and performance testing** | |
-&emsp;&emsp;Write test plan | TE3, TE4
+&emsp;&emsp;Write test plan | TE3, TE4 |
 &emsp;&emsp;**Review TP** | |
 &emsp;&emsp;&emsp;Preparation for TP | TE302, TE404, TE405, TE2403 | TE3, TE4 absent
 &emsp;&emsp;&emsp;Review TP meeting | TE1, TE2, TE3, TE4, TE2403 | TE3, TE4 returns
-&emsp;&emsp;&emsp;Rework | TE3, TE4
-&emsp;&emsp;Execute TP | TE2, TE302
-&emsp;&emsp;Fix found defects | PE9, PE10
-&emsp;&emsp;Test fixed defects | TE2403, TE405
+&emsp;&emsp;&emsp;Rework | TE3, TE4 |
+&emsp;&emsp;Execute TP | TE2, TE302 |
+&emsp;&emsp;Fix found defects | PE9, PE10 |
+&emsp;&emsp;Test fixed defects | TE2403, TE405 |
 &emsp;**Documentation** | |
-&emsp;&emsp;User documentation | DE1, DE105
+&emsp;&emsp;User documentation | DE1, DE105 |
 &emsp;&emsp;**Review UD** | |
 &emsp;&emsp;&emsp;Preparation for UD Review | DE203, DE204, DE205, DE206 | DE1, DE105 absent
 &emsp;&emsp;&emsp;Review UD meeting | DE1, DE206, DE105, DE204, DE205 | DE1, DE105 returns
-&emsp;&emsp;&emsp;Rework | DE1, DE105
+&emsp;&emsp;&emsp;Rework | DE1, DE105 |
 &emsp;**Training material** | |
-&emsp;&emsp;Tutorial | DE203 DE204
+&emsp;&emsp;Tutorial | DE203 DE204 |
 &emsp;&emsp;**Review tutorial** | |
 &emsp;&emsp;&emsp;Preparation for tutorial review | DE1, DE105, DE205, DE206 | DE203, DE204 absent
 &emsp;&emsp;&emsp;Review tutorial meeting | DE203, DE204, DE1, DE206, DE105 | DE203, DE204 returns
-&emsp;&emsp;&emsp;Rework | DE203, DE204
+&emsp;&emsp;&emsp;Rework | DE203, DE204 |
 
 ## Problem 4
 
@@ -286,7 +333,7 @@ Task | Resource | Note
   on **6/3/25?**
 
 Based on the projection on Microsoft Project document, it is reasonable to
-expect that the project will finish on **February 3, 2026**, exactly 8 months
+expect that the project will finish on **February 3, 2026,** exactly 8 months
 after the start date.
 
 ## Problem 5
@@ -296,10 +343,14 @@ after the start date.
 > Submit your MS Project File.
 
 > Create PDF Document Report that has the following:
+>
+> 1.  WBS
+> 1.  Network Diagram
+> 1.  Answers to Question #4
 
-Included in this submission **hw1.zip**:
+Included in this submission `hw1.zip`:
 
-- Homework report: **hw1.md**
-- Homework PDF conversion: **report.pdf**
-- Microsoft Project file: **hw1.mpp**
-- Microsoft Project PDF conversion: **output.pdf**
+- Homework report: `hw1.md`
+- Homework PDF conversion: `report.pdf`
+- Microsoft Project file: `hw1.mpp`
+- Microsoft Project PDF conversion: `output.pdf`
