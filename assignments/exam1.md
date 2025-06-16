@@ -39,7 +39,7 @@ defects ranged from requirement specifications, design documents and code
 implementation. There are four stages in a review process:
 
 ```mermaid
-graph LR
+flowchart LR
   START[ ] -->|prepare\n work product| A[Planning]
   A -->|invite\nreview team| B[Preparation]
   B -->|log\npreparation| C[Meeting]
@@ -56,7 +56,7 @@ By adhering to the standards, the software project maintains its integrity and
 perceived quality. The audit process follows a checklist and a follow-up:
 
 ```mermaid
-graph TB
+flowchart TB
   START[ ] -->|complete checklist| A[Project plan format]
   A --> B[Contracts and commitments]
   B --> C[Estimated effort schedule]
@@ -84,7 +84,7 @@ design phase. Logically speaking, there is no code to test without the
 implementation.
 
 ```mermaid
-graph LR
+flowchart LR
   A[Requirements review] --> B[Analysis and design]
   B --> C[Implementation]
   C --> D[Testing]
@@ -102,7 +102,7 @@ materials and other resources. These key process areas (KPA) can be used to
 estimate effort and duration in a work breakdown structure (WBS).
 
 ```mermaid
-graph LR
+flowchart LR
   A[Level 1:\nInitial] --> B[Level 2:\nRepeatable]
   B --> C[Level 3:\nDefined]
   C --> D[Level 4:\nManaged]
@@ -260,20 +260,20 @@ approximately 3 months early delivery.
 Task | Effort | Duration
 --- | ---: | ---:
 **High Level Design (HLD)** | |
-&emsp;Write HLD document | $136\ \textsf{pages} / 2\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{68}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{68}\ \textbf{h}$
+&emsp;Write HLD document | $136 \ \textsf{pages} / 2 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{68} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{68} \ \textbf{h}$
 &emsp;**Review HLD document** | |
-&emsp;&emsp;Preparation for HLD document | $136\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{34}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{8.5}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $136\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{22.67}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{4.53}\ \textbf{h}$
-&emsp;Rework | $24\ \textsf{defects} / 2\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{12}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{12}\ \textbf{h}$
+&emsp;&emsp;Preparation for HLD document | $136 \ \textsf{pages} / 4 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{34} \ \textbf{h}$ | $/ 4 \ \textsf{people} = \mathbf{8.5} \ \textbf{h}$
+&emsp;&emsp;Review meeting | $136 \ \textsf{pages} / 6 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{22.67} \ \textbf{h}$ | $/ 5 \ \textsf{people} = \mathbf{4.53} \ \textbf{h}$
+&emsp;Rework | $24 \ \textsf{defects} / 2 \ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{12} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{12} \ \textbf{h}$
 **Low Level Design (LLD)** | |
-&emsp;Write LLD document | $76\ \textsf{pages} / 2\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{38}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{38}\ \textbf{h}$
+&emsp;Write LLD document | $76 \ \textsf{pages} / 2 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{38} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{38} \ \textbf{h}$
 &emsp;**Review LLD document** | |
-&emsp;&emsp;Preparation for LLD document | $76\ \textsf{pages} / 3\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{25.33}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{6.33}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $76\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{12.67}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{2.53}\ \textbf{h}$
-&emsp;Rework | $43\ \textsf{defects} / 1\ \frac{\textsf{defect}}{\textsf{h}} = \mathbf{43}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{43}\ \textbf{h}$
+&emsp;&emsp;Preparation for LLD document | $76 \ \textsf{pages} / 3 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{25.33} \ \textbf{h}$ | $/ 4 \ \textsf{people} = \mathbf{6.33} \ \textbf{h}$
+&emsp;&emsp;Review meeting | $76 \ \textsf{pages} / 6 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{12.67} \ \textbf{h}$ | $/ 5 \ \textsf{people} = \mathbf{2.53} \ \textbf{h}$
+&emsp;Rework | $43 \ \textsf{defects} / 1 \ \frac{\textsf{defect}}{\textsf{h}} = \mathbf{43} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{43} \ \textbf{h}$
 **Testing** | |
-&emsp;Write test plan | $102\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{20.4}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{20.4}\ \textbf{h}$
+&emsp;Write test plan | $102 \ \textsf{pages} / 5 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{20.4} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{20.4} \ \textbf{h}$
 &emsp;**Review test plan** | |
-&emsp;&emsp;Preparation for test plan | $102\ \textsf{pages} / 10\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{10.2}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{2.55}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $102\ \textsf{pages} / 15\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{6.8}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{1.36}\ \textbf{h}$
-&emsp;Rework | $35\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{8.75}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{8.75}\ \textbf{h}$
+&emsp;&emsp;Preparation for test plan | $102 \ \textsf{pages} / 10 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{10.2} \ \textbf{h}$ | $/ 4 \ \textsf{people} = \mathbf{2.55} \ \textbf{h}$
+&emsp;&emsp;Review meeting | $102 \ \textsf{pages} / 15 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{6.8} \ \textbf{h}$ | $/ 5 \ \textsf{people} = \mathbf{1.36} \ \textbf{h}$
+&emsp;Rework | $35 \ \textsf{defects} / 4 \ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{8.75} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{8.75} \ \textbf{h}$

@@ -97,60 +97,60 @@ resources for both Assignment #1 and Assignment #2 projects.
 Task | Effort | Duration
 --- | ---: | ---:
 **Project Plan** | |
-&emsp;Write plan | $84\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{16.8}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{16.8}\ \textbf{h}$
+&emsp;Write plan | $84 \ \textsf{pages} / 5 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{16.8} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{16.8} \ \textbf{h}$
 &emsp;**Review plan** | |
-&emsp;&emsp;Preparation for review | $84\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{16.8}\ \textbf{h}$ | $/ 6\ \textsf{people} = \mathbf{2.8}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $84\ \textsf{pages} / 10\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{8.4}\ \textbf{h}$ | $/ 7\ \textsf{people} = \mathbf{1.2}\ \textbf{h}$
-&emsp;Rework | $123\ \textsf{defects} / 3\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{41}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{41}\ \textbf{h}$
+&emsp;&emsp;Preparation for review | $84 \ \textsf{pages} / 5 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{16.8} \ \textbf{h}$ | $/ 6 \ \textsf{people} = \mathbf{2.8} \ \textbf{h}$
+&emsp;&emsp;Review meeting | $84 \ \textsf{pages} / 10 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{8.4} \ \textbf{h}$ | $/ 7 \ \textsf{people} = \mathbf{1.2} \ \textbf{h}$
+&emsp;Rework | $123 \ \textsf{defects} / 3 \ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{41} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{41} \ \textbf{h}$
 **Requirements** | |
-&emsp;Write requirements | $165\ \textsf{Req} / 4\ \frac{\textsf{Req}}{\textsf{h}} = \mathbf{41.25}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{41.25}\ \textbf{h}$
+&emsp;Write requirements | $165 \ \textsf{Req} / 4 \ \frac{\textsf{Req}}{\textsf{h}} = \mathbf{41.25} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{41.25} \ \textbf{h}$
 &emsp;**Review requirements** | |
-&emsp;&emsp;Preparation for review | $165\ \textsf{Req} / 5\ \frac{\textsf{Req}}{\textsf{h}} = \mathbf{33}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{8.25}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $165\ \textsf{Req} / 10\ \frac{\textsf{Req}}{\textsf{h}} = \mathbf{16.5}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{3.3}\ \textbf{h}$
-&emsp;Rework | $210 \textsf{defects} / 8\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{26.25}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{26.25}\ \textbf{h}$
+&emsp;&emsp;Preparation for review | $165 \ \textsf{Req} / 5 \ \frac{\textsf{Req}}{\textsf{h}} = \mathbf{33} \ \textbf{h}$ | $/ 4 \ \textsf{people} = \mathbf{8.25} \ \textbf{h}$
+&emsp;&emsp;Review meeting | $165 \ \textsf{Req} / 10 \ \frac{\textsf{Req}}{\textsf{h}} = \mathbf{16.5} \ \textbf{h}$ | $/ 5 \ \textsf{people} = \mathbf{3.3} \ \textbf{h}$
+&emsp;Rework | $210 \textsf{defects} / 8 \ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{26.25} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{26.25} \ \textbf{h}$
 **Lab and Environment Setup** | |
 &emsp;**Hardware** | |
-&emsp;&emsp;Install servers | $15\ \textsf{servers} / 1\ \frac{\textsf{server}}{\textsf{d}} = \mathbf{15}\ \textbf{d}$ | $/ 1\ \textsf{person} = \mathbf{15}\ \textbf{d}$
-&emsp;&emsp;Install clients | $19\ \textsf{clients} / 6\ \frac{\textsf{clients}}{\textsf{d}} = \mathbf{3.17}\ \textbf{d}$ | $/ 1\ \textsf{person} = \mathbf{3.17}\ \textbf{d}$
+&emsp;&emsp;Install servers | $15 \ \textsf{servers} / 1 \ \frac{\textsf{server}}{\textsf{d}} = \mathbf{15} \ \textbf{d}$ | $/ 1 \ \textsf{person} = \mathbf{15} \ \textbf{d}$
+&emsp;&emsp;Install clients | $19 \ \textsf{clients} / 6 \ \frac{\textsf{clients}}{\textsf{d}} = \mathbf{3.17} \ \textbf{d}$ | $/ 1 \ \textsf{person} = \mathbf{3.17} \ \textbf{d}$
 &emsp;**Software** | |
-&emsp;&emsp;Install development tools | $8\ \textsf{tools} / 5\ \frac{\textsf{tools}}{\textsf{d}} = \mathbf{1.6}\ \textbf{d}$ | $/ 1\ \textsf{person} = \mathbf{1.6}\ \textbf{d}$
-&emsp;&emsp;Install testing tools | $12\ \textsf{tools} / 2\ \frac{\textsf{tools}}{\textsf{d}} = \mathbf{6}\ \textbf{d}$ | $/ 1\ \textsf{person} = \mathbf{6}\ \textbf{d}$
+&emsp;&emsp;Install development tools | $8 \ \textsf{tools} / 5 \ \frac{\textsf{tools}}{\textsf{d}} = \mathbf{1.6} \ \textbf{d}$ | $/ 1 \ \textsf{person} = \mathbf{1.6} \ \textbf{d}$
+&emsp;&emsp;Install testing tools | $12 \ \textsf{tools} / 2 \ \frac{\textsf{tools}}{\textsf{d}} = \mathbf{6} \ \textbf{d}$ | $/ 1 \ \textsf{person} = \mathbf{6} \ \textbf{d}$
 **Design Document** | |
-&emsp;Write DD | $10\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{1.67}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{1.67}\ \textbf{h}$
+&emsp;Write DD | $10 \ \textsf{pages} / 6 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{1.67} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{1.67} \ \textbf{h}$
 &emsp;**Review DD** | |
-&emsp;&emsp;Preparation for DD | $10\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{2}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{0.5}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $10\ \textsf{pages} / 10\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{1}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{0.2}\ \textbf{h}$
-&emsp;Rework | $15\ \textsf{defects} / 3\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{5}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{5}\ \textbf{h}$
+&emsp;&emsp;Preparation for DD | $10 \ \textsf{pages} / 5 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{2} \ \textbf{h}$ | $/ 4 \ \textsf{people} = \mathbf{0.5} \ \textbf{h}$
+&emsp;&emsp;Review meeting | $10 \ \textsf{pages} / 10 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{1} \ \textbf{h}$ | $/ 5 \ \textsf{people} = \mathbf{0.2} \ \textbf{h}$
+&emsp;Rework | $15 \ \textsf{defects} / 3 \ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{5} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{5} \ \textbf{h}$
 **Data Model** | |
-&emsp;Write DM | $45\ \textsf{pages} / 1\ \frac{\textsf{page}}{\textsf{h}} = \mathbf{45}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{45}\ \textbf{h}$
+&emsp;Write DM | $45 \ \textsf{pages} / 1 \ \frac{\textsf{page}}{\textsf{h}} = \mathbf{45} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{45} \ \textbf{h}$
 &emsp;**Review DM** | |
-&emsp;&emsp;Preparation for DM | $45\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{9}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{2.25}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $45\ \textsf{pages} / 10\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{4.5}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{0.9}\ \textbf{h}$
-&emsp;Rework | $223\ \textsf{defects} / 4\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{55.75}\ \textbf{h}$ | $/ 1\ \textsf{person} = \mathbf{55.75}\ \textbf{h}$
+&emsp;&emsp;Preparation for DM | $45 \ \textsf{pages} / 5 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{9} \ \textbf{h}$ | $/ 4 \ \textsf{people} = \mathbf{2.25} \ \textbf{h}$
+&emsp;&emsp;Review meeting | $45 \ \textsf{pages} / 10 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{4.5} \ \textbf{h}$ | $/ 5 \ \textsf{people} = \mathbf{0.9} \ \textbf{h}$
+&emsp;Rework | $223 \ \textsf{defects} / 4 \ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{55.75} \ \textbf{h}$ | $/ 1 \ \textsf{person} = \mathbf{55.75} \ \textbf{h}$
 **Coding and unit test** | |
-&emsp;Write code | $3945\ \textsf{SLOC} / 5\ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{789}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{197.25}\ \textbf{h}$
+&emsp;Write code | $3945 \ \textsf{SLOC} / 5 \ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{789} \ \textbf{h}$ | $/ 4 \ \textsf{people} = \mathbf{197.25} \ \textbf{h}$
 &emsp;**Unit testing** | |
-&emsp;&emsp;Execute test cases | $187\ \textsf{tests} / 3\ \frac{\textsf{tests}}{\textsf{d}} = \mathbf{62.33}\ \textbf{d}$ | $/ 3\ \textsf{people} = \mathbf{20.78}\ \textbf{d}$
-&emsp;&emsp;Fix found defects | $155\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{31}\ \textbf{d}$ | $/ 3\ \textsf{people} = \mathbf{10.33}\ \textbf{d}$
-&emsp;&emsp;Test fixed defects | $155\ \textsf{defects} / 10\ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{15.5}\ \textbf{d}$ | $/ 3\ \textsf{people} = \mathbf{5.17}\ \textbf{d}$
+&emsp;&emsp;Execute test cases | $187 \ \textsf{tests} / 3 \ \frac{\textsf{tests}}{\textsf{d}} = \mathbf{62.33} \ \textbf{d}$ | $/ 3 \ \textsf{people} = \mathbf{20.78} \ \textbf{d}$
+&emsp;&emsp;Fix found defects | $155 \ \textsf{defects} / 5 \ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{31} \ \textbf{d}$ | $/ 3 \ \textsf{people} = \mathbf{10.33} \ \textbf{d}$
+&emsp;&emsp;Test fixed defects | $155 \ \textsf{defects} / 10 \ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{15.5} \ \textbf{d}$ | $/ 3 \ \textsf{people} = \mathbf{5.17} \ \textbf{d}$
 &emsp;**Code inspection** | |
-&emsp;&emsp;Preparation for code inspection | $3945\ \textsf{SLOC} / 125\ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{31.56}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{7.89}\ \textbf{h}$
-&emsp;&emsp;Code inspection meeting | $3945\ \textsf{SLOC} / 200\ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{19.73}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{3.95}\ \textbf{h}$
-&emsp;&emsp;Rework | $314\ \textsf{defects} / 3\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{104.67}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{52.33}\ \textbf{h}$
+&emsp;&emsp;Preparation for code inspection | $3945 \ \textsf{SLOC} / 125 \ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{31.56} \ \textbf{h}$ | $/ 4 \ \textsf{people} = \mathbf{7.89} \ \textbf{h}$
+&emsp;&emsp;Code inspection meeting | $3945 \ \textsf{SLOC} / 200 \ \frac{\textsf{SLOC}}{\textsf{h}} = \mathbf{19.73} \ \textbf{h}$ | $/ 5 \ \textsf{people} = \mathbf{3.95} \ \textbf{h}$
+&emsp;&emsp;Rework | $314 \ \textsf{defects} / 3 \ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{104.67} \ \textbf{h}$ | $/ 2 \ \textsf{people} = \mathbf{52.33} \ \textbf{h}$
 **Testing** | |
-&emsp;Write TP | $203\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{d}} = \mathbf{33.83}\ \textbf{d}$ | $/ 3\ \textsf{people} = \mathbf{11.28}\ \textbf{d}$
+&emsp;Write TP | $203 \ \textsf{pages} / 6 \ \frac{\textsf{pages}}{\textsf{d}} = \mathbf{33.83} \ \textbf{d}$ | $/ 3 \ \textsf{people} = \mathbf{11.28} \ \textbf{d}$
 &emsp;**Review TP** | |
-&emsp;&emsp;Preparation for TP | $203\ \textsf{pages} / 2\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{101.5}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{25.38}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $203\ \textsf{pages} / 6\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{33.83}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{6.77}\ \textbf{h}$
-&emsp;&emsp;Rework | $102\ \textsf{defects} / 5\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{20.4}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{10.2}\ \textbf{h}$
-&emsp;Execute TP | $310\ \textsf{tests} / 6\ \frac{\textsf{tests}}{\textsf{d}} = \mathbf{51.67}\ \textbf{d}$ | $/ 3\ \textsf{people} = \mathbf{17.22}\ \textbf{d}$
-&emsp;Fix found defects | $185\ \textsf{defects} / 12\ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{15.42}\ \textbf{d}$ | $/ 2\ \textsf{people} = \mathbf{7.71}\ \textbf{d}$
+&emsp;&emsp;Preparation for TP | $203 \ \textsf{pages} / 2 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{101.5} \ \textbf{h}$ | $/ 4 \ \textsf{people} = \mathbf{25.38} \ \textbf{h}$
+&emsp;&emsp;Review meeting | $203 \ \textsf{pages} / 6 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{33.83} \ \textbf{h}$ | $/ 5 \ \textsf{people} = \mathbf{6.77} \ \textbf{h}$
+&emsp;&emsp;Rework | $102 \ \textsf{defects} / 5 \ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{20.4} \ \textbf{h}$ | $/ 2 \ \textsf{people} = \mathbf{10.2} \ \textbf{h}$
+&emsp;Execute TP | $310 \ \textsf{tests} / 6 \ \frac{\textsf{tests}}{\textsf{d}} = \mathbf{51.67} \ \textbf{d}$ | $/ 3 \ \textsf{people} = \mathbf{17.22} \ \textbf{d}$
+&emsp;Fix found defects | $185 \ \textsf{defects} / 12 \ \frac{\textsf{defects}}{\textsf{d}} = \mathbf{15.42} \ \textbf{d}$ | $/ 2 \ \textsf{people} = \mathbf{7.71} \ \textbf{d}$
 **Documentation** | |
-&emsp;Write UD | $195\ \textsf{pages} / 4\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{48.75}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{24.38}\ \textbf{h}$
+&emsp;Write UD | $195 \ \textsf{pages} / 4 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{48.75} \ \textbf{h}$ | $/ 2 \ \textsf{people} = \mathbf{24.38} \ \textbf{h}$
 &emsp;**Review UD** | |
-&emsp;&emsp;Preparation for UD | $195\ \textsf{pages} / 5\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{39}\ \textbf{h}$ | $/ 4\ \textsf{people} = \mathbf{9.75}\ \textbf{h}$
-&emsp;&emsp;Review meeting | $195\ \textsf{pages} / 8\ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{24.38}\ \textbf{h}$ | $/ 5\ \textsf{people} = \mathbf{4.88}\ \textbf{h}$
-&emsp;&emsp;Rework | $344\ \textsf{defects} / 15\ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{22.93}\ \textbf{h}$ | $/ 2\ \textsf{people} = \mathbf{11.47}\ \textbf{h}$
+&emsp;&emsp;Preparation for UD | $195 \ \textsf{pages} / 5 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{39} \ \textbf{h}$ | $/ 4 \ \textsf{people} = \mathbf{9.75} \ \textbf{h}$
+&emsp;&emsp;Review meeting | $195 \ \textsf{pages} / 8 \ \frac{\textsf{pages}}{\textsf{h}} = \mathbf{24.38} \ \textbf{h}$ | $/ 5 \ \textsf{people} = \mathbf{4.88} \ \textbf{h}$
+&emsp;&emsp;Rework | $344 \ \textsf{defects} / 15 \ \frac{\textsf{defects}}{\textsf{h}} = \mathbf{22.93} \ \textbf{h}$ | $/ 2 \ \textsf{people} = \mathbf{11.47} \ \textbf{h}$
 
 ## Problem 4
 
@@ -168,7 +168,7 @@ the problem statement:
   inspection groups can be executed in parallel.
 
 ```mermaid
-graph TB
+flowchart TB
   Start --> A1
 
   A1[Project Plan] --> A2(Write plan)

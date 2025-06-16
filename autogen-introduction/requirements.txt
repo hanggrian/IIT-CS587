@@ -1,0 +1,12 @@
+# Jupyter
+ipykernel
+
+# Deep Learning
+dotenv
+flaml[automl]
+pyautogen==0.2.35
+chess==1.10.0
+matplotlib
+numpy
+pandas
+yfinance
