@@ -3,6 +3,7 @@ ipykernel
 
 # Deep Learning
 dotenv
+pygraphviz
 langchain-core
 langchain-openai
 langgraph
