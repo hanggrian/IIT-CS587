@@ -1,0 +1,21 @@
+# Jupyter
+ipykernel
+ipywidgets
+
+# Ollama
+llama-index
+llama-index-llms-ollama
+llama-index-llms-replicate
+llama-index-embeddings-huggingface
+llama-parse
+
+# OpenAI
+pypdf2
+openai
+langchain
+langchain-core
+langchain-community
+langchain-openai
+
+# Replicate
+replicate
