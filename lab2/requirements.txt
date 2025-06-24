@@ -1,0 +1,12 @@
+# Jupyter
+ipykernel
+
+# Deep Learning
+dotenv
+pygraphviz
+langchain-core
+langchain-openai
+langgraph
+langgraph-checkpoint-sqlite
+tavily-python
+gradio

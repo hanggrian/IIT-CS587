@@ -13,7 +13,7 @@
   src="https://cdn.jsdelivr.net/npm/mermaid@10.4.0/dist/mermaid.min.js">
 </script>
 
-# [Homework 1](https://github.com/hanggrian/IIT-CS587/blob/assets/assignments/hw1.pdf)
+# [Homework 1](https://github.com/hanggrian/IIT-CS587/blob/assets/assignments/hw1.pdf): Analysis
 
 > ## Resources
 >

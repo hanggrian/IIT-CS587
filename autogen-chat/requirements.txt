@@ -1,8 +1,0 @@
-# Jupyter
-ipykernel
-
-# Deep Learning
-dotenv
-flaml[automl]
-pyautogen==0.2.35
-yfinance

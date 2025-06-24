@@ -1,0 +1,22 @@
+// WBS of Strickland Propane Software Plan
+digraph {
+	1 [label="1. Scoping and Requirements Gathering"]
+	2 [label="2. System Design"]
+	3 [label="3. Technology Selection"]
+	4 [label="4. Implementation Plan"]
+	5 [label="5. Development & Customization"]
+	6 [label="6. Training & Deployment"]
+	7 [label="7. Testing & Quality Assurance"]
+	8 [label="8. Maintenance & Support"]
+	9 [label="9. Evaluation & Continuous Improvement"]
+	a [label="Conduct interviews"]
+	b [label="Analyze current systems"]
+	c [label="Identify specific needs"]
+	d [label="Choose platform"]
+	e [label="Design system modules"]
+	1 -> a
+	1 -> b
+	1 -> c
+	2 -> d
+	2 -> e
+}
