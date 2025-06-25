@@ -1,4 +1,4 @@
-# Presentation script
+# [Final project](https://github.com/hanggrian/IIT-CS587/blob/assets/assignments/proj_1.pdf): Script
 
 ## Slide 1
 

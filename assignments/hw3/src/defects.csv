@@ -1,0 +1,9 @@
+,R,A,I0,I1,UT,IT,ST,F
+Requirement (R),52,0,0,0,0,0,0,0
+Analysis (A),18,31,0,0,0,0,0,0
+Design (I0),17,17,78,0,0,0,0,0
+Coding (I1),36,19,55,189,0,0,0,0
+Unit Testing (UT),12,43,8,156,27,0,0,0
+Integration Testing (IT),17,23,26,45,0,3,0,0
+System Testing (ST),24,39,57,41,0,0,2,0
+Field (F),2,4,3,5,0,0,0,5

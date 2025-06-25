@@ -1,0 +1,13 @@
+# Jupyter
+ipykernel
+
+# Part 1
+pandas
+seaborn
+matplotlib
+numpy
+
+# Part 2
+dotenv
+flaml[automl]
+pyautogen==0.2.35
