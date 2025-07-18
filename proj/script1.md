@@ -12,7 +12,7 @@
 
 > ![Slide 2](https://github.com/hanggrian/IIT-CS587/raw/assets/proj/slide1_2.png)
 
-- First, the project implements pyautogen from previous assignments.
+- First, the project implements ag2 from previous assignments.
 - Then, integrate OpenAI models to produce planning estimates.
 - Finally, the experiments are conducted on a Jupyter notebook file.
 
